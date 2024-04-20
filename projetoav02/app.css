@@ -1,0 +1,712 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+header {
+    height: 3.5em;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    min-height: 54px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.menu {
+    height: 2em;
+    width: 2em;
+    display: flex;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.spotify {
+    display: flex;
+    height: 27px;
+    width: 89px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.azul {
+    background-color: #1d75de;
+    height: auto;
+    width: 100%;
+
+}
+
+.azul h2 {
+    color: white;
+    padding-top: 1.5em;
+    margin-left: 5%;
+    font-size: 2em;
+    font-weight: 700;
+
+}
+
+.azul h3 {
+    color: white;
+    margin-left: 5%;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.azul button {
+    background-color: #191414;
+    color: white;
+    margin-left: 5%;
+    border-radius: 50px;
+    width: 90%;
+    height: 4em;
+    font-weight: 800;
+    display: inline-block;
+}
+
+
+
+.botaobaixo button {
+    background-color: #1d75de;
+    border: 2px solid white;
+}
+
+.botaocima button {
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.botaocima button:hover {
+    transform: scale(1.03);
+    background-color: black;
+    border-color: rgb(25, 20, 20);
+}
+
+.botaobaixo button:hover {
+    transform: scale(1.03);
+}
+
+.small {
+    color: white;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 10px;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.small a {
+    color: white;
+}
+
+.branco {
+    background-color: #f6f6f6;
+    height: 2350px;
+
+}
+
+.branco h2 {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: -1.28px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.branco h4 {
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+
+.quadrado {
+    height: 490px;
+    width: 440px;
+    background-color: white;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.quadrado2 {
+    height: 470px;
+    width: 440px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 2%;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.quadrado3 {
+    height: 560px;
+    width: 440px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 2%;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.quadrado4 {
+    height: 550px;
+    width: 440px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 2%;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.botao1 button {
+    background-color: #1d75de;
+    border: 1px solid #1d75de;
+    border-radius: 5%;
+    color: white;
+    margin-left: 20px;
+    font-weight: 700;
+    height: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.botao2 button {
+    background-color: white;
+    border: 1px solid #1d75de;
+    border-radius: 5%;
+    color: #1d75de;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 185px;
+    height: 25px;
+    position: relative;
+    top: -25px;
+}
+
+.branco h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    position: relative;
+    top: -15px;
+}
+
+.linha {
+    width: 400px;
+    background-color: black;
+    height: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.branco h5 {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    max-width: 350px;
+}
+
+span {
+    content: "\2713";
+    padding-left: 30px;
+
+}
+
+.botaopreto button {
+    background-color: #191414;
+    color: white;
+    margin-left: 5%;
+    border-radius: 50px;
+    width: 90%;
+    height: 3.5em;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.botaopreto button:hover {
+    transform: scale(1.03);
+    background-color: black;
+    border-color: rgb(25, 20, 20);
+}
+
+.pequeno {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    max-width: 400px;
+    padding-top: 15px;
+    color: gray;
+
+}
+
+.pequeno a {
+    color: gray;
+}
+
+footer {
+    background-color: black;
+    height: 1100px;
+    font-family: sans-serif;
+
+}
+
+.spotifyf {
+    height: 1.7em;
+    width: 50px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+h6 {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.final1 a {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.final1 a:hover {
+    color: green;
+}
+
+.anchor {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.final2 a {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 15px;
+    width: 100px;
+
+}
+
+.final2 a:hover {
+    color: green;
+}
+
+.final3 a {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 15px;
+    width: 200px;
+
+}
+
+.final3 a:hover {
+
+    color: green;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 100px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.fa:hover {
+    color: green;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-bottom: 50px;
+}
+
+.small1 a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    margin-left: 20px;
+
+
+}
+
+.small1 {
+    max-width: 1000px;
+}
+
+
+.small1 a:hover {
+    color: green;
+}
+
+.small2 a:hover {
+    color: green;
+}
+
+.copyright h5 {
+    color: gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+
+
+@media (min-width: 768px) {
+    .azul {
+        font-size: 1.25em;
+    }
+
+    .butoes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .botaocima button {
+        width: 175px;
+        height: 50px;
+        margin-left: 40px;
+
+    }
+
+    .botaobaixo button {
+        width: 150px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+    footer {
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .small1 {
+        width: 600px;
+    }
+
+    .container {
+        max-width: 1170px;
+    }
+
+    .container2 {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        right: 850px;
+        max-height: 100px;
+        top: 350px;
+
+
+    }
+
+    .spotifyf {
+        position: relative;
+        left: 100px;
+        height: 40px;
+        bottom: 20px;
+    }
+
+
+
+    .container3 {
+        display: flex;
+        max-width: 1200px;
+        margin-left: 30%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .copyright {
+        position: relative;
+        left: 300px;
+    }
+
+    .final1 {
+        margin-left: 20%;
+
+    }
+
+    .final2 {}
+
+    .final3 {
+        margin-left: 5%;
+
+    }
+
+    .icons {
+        font-size: 25px;
+    }
+
+    .fa {
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    .quadrados {
+        display: flex;
+        flex-direction: row;
+        max-width: 1100px;
+        margin: auto;
+
+    }
+
+    .quadrados h5 {
+        max-width: 200px;
+    }
+
+    .quadrado {
+        width: 253px;
+        height: 800px;
+        position: relative;
+        top: -60px;
+        padding-top: 40px;
+
+    }
+
+    .quadrado .botaopreto {
+        position: relative;
+        margin-top: 150px;
+    }
+
+    .quadrado2 {
+        width: 253px;
+        height: 800px;
+        padding-top: 40px;
+    }
+
+    .quadrado2 .botaopreto {
+        position: relative;
+        margin-top: 185px;
+    }
+
+    .quadrado3 {
+        width: 253px;
+        height: 800px;
+        padding-top: 40px;
+    }
+
+    .quadrado4 {
+        width: 253px;
+        height: 800px;
+        padding-top: 40px;
+    }
+
+    .quadrado4 .botaopreto {
+        position: relative;
+        margin-top: 130px;
+    }
+
+
+    .linha {
+        width: 237px;
+        background-color: black;
+        height: 2px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .botao1 {
+        position: relative;
+        top: -40px;
+    }
+
+    .botao2 {
+        position: relative;
+        right: 165px;
+        width: 400px;
+    }
+
+
+    .branco {
+        height: 1000px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header {
+        height: 80px;
+    }
+
+    .container {
+        max width: 970px;
+        height: 80px;
+    }
+
+    .spotify {
+        height: 40px;
+        width: 132px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+
+
+    }
+
+    .nav a {
+        margin-left: 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+
+    }
+
+    .nav a:hover {
+        color: green;
+    }
+
+    .nav a:nth-child(3) {
+        border-right: 1px solid white;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .nav {
+        position: fixed;
+        left: -100%;
+    }
+}
